@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "WinFormsApp2/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/WinFormsApp2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsApp2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsApp2/1.0.0": {
+      "type": "project",
+      "path": "../WinFormsApp2/WinFormsApp2.csproj",
+      "msbuildProject": "../WinFormsApp2/WinFormsApp2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "WinFormsApp2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fedtu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2Tests\\WinFormsApp2Tests.csproj",
+      "projectName": "WinFormsApp2Tests",
+      "projectPath": "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2Tests\\WinFormsApp2Tests.csproj",
+      "packagesPath": "C:\\Users\\fedtu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fedtu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": ".NETCoreApp,Version=v5.0",
+          "projectReferences": {
+            "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
+              "projectPath": "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": ".NETCoreApp,Version=v5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект WinFormsApp2 несовместим с net5.0 (.NETCoreApp,Version=v5.0). Проект WinFormsApp2 поддерживает: net5.0-windows7.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WinFormsApp2",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

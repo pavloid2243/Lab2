@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "dFjE8wo0HF6nXlCXMHnuSI4f3KHha14Yso5Y8ru9WAdWF8ng4EbQ+OD9BP+SStAB0GAG+zs5zEzq38UPXDa2yw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\fedtu\\source\\repos\\WinFormsApp2\\WinFormsApp2Tests\\WinFormsApp2Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект WinFormsApp2 несовместим с net5.0 (.NETCoreApp,Version=v5.0). Проект WinFormsApp2 поддерживает: net5.0-windows7.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WinFormsApp2",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
